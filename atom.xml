@@ -18,8 +18,8 @@
   
   <entry>
     <title>My Academic Homepage</title>
-    <link href="https://gengxingri.github.io/2023/04/07/post/"/>
-    <id>https://gengxingri.github.io/2023/04/07/post/</id>
+    <link href="https://gengxingri.github.io/2023/04/07/Introduction/"/>
+    <id>https://gengxingri.github.io/2023/04/07/Introduction/</id>
     <published>2023-04-07T10:56:45.000Z</published>
     <updated>2023-04-07T04:42:03.525Z</updated>
     
@@ -29,27 +29,6 @@
       
       
     <summary type="html">&lt;p&gt;This is my &lt;a href=&quot;https://gengxingri.github.io/homepage/&quot;&gt;academic homepage&lt;/a&gt;.&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>My New Post</title>
-    <link href="https://gengxingri.github.io/2023/04/07/My-New-Post/"/>
-    <id>https://gengxingri.github.io/2023/04/07/My-New-Post/</id>
-    <published>2023-04-07T01:06:46.000Z</published>
-    <updated>2023-04-06T18:33:19.983Z</updated>
-    
-    <content type="html"><![CDATA[<p>type: tags<br>comments:false </p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;type: tags&lt;br&gt;comments:false &lt;/p&gt;
 </summary>
       
     
