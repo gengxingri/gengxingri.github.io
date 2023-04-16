@@ -6,7 +6,7 @@
   <link href="https://gengxingri.github.io/atom.xml" rel="self"/>
   
   <link href="https://gengxingri.github.io/"/>
-  <updated>2023-04-15T12:44:40.296Z</updated>
+  <updated>2023-04-16T18:27:34.157Z</updated>
   <id>https://gengxingri.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://gengxingri.github.io/2023/04/15/boxing/"/>
     <id>https://gengxingri.github.io/2023/04/15/boxing/</id>
     <published>2023-04-15T01:06:10.000Z</published>
-    <updated>2023-04-15T12:44:40.296Z</updated>
+    <updated>2023-04-16T18:27:34.157Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>“It’s the last training. ”</p></blockquote><p><img src="/css/post-img/boxing.jpg"></p>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>“It’s the last training. ”</p></blockquote><p><img src="/css/post-img/boxing.jpg" alt="Boxing Group"></p><p id = "build"></p><h2 id="拳击🥊"><a href="#拳击🥊" class="headerlink" title="拳击🥊"></a>拳击🥊</h2><p>拳击的六个基本动作：</p><ul><li><p><strong>jab 刺拳</strong></p></li><li><p><strong>cross 交叉拳</strong></p></li><li><p><strong>hook 勾拳 (left, right)</strong></p></li><li><p><strong>uppercut 上钩拳 (left, right)</strong></p></li></ul><p><img src="https://blogs.rdxsports.com/wp-content/uploads/2022/09/images-2-e1663338693936.jpg"></p>]]></content>
     
     
       
@@ -31,8 +31,8 @@
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;“It’s the last training. ”&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;/css/post-img/boxing.jpg&quot;&gt;&lt;/p&gt;
-</summary>
+&lt;p&gt;&lt;img src=&quot;/css/post-img/boxing.jpg&quot; alt=&quot;Boxing Group&quot;&gt;&lt;/p&gt;
+&lt;p id = &quot;build&quot;&gt;</summary>
       
     
     
@@ -47,7 +47,7 @@
     <link href="https://gengxingri.github.io/2023/04/07/intro/"/>
     <id>https://gengxingri.github.io/2023/04/07/intro/</id>
     <published>2023-04-07T10:56:45.000Z</published>
-    <updated>2023-04-14T17:33:44.287Z</updated>
+    <updated>2023-04-15T14:30:28.315Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>“Yeah It’s on. ”</p></blockquote><p><img src="https://www.museivaticani.va/content/dam/museivaticani/immagini/collezioni/musei/cappella_sistina/02_04_03_Creazione_uomo.png/_jcr_content/renditions/cq5dam.web.1280.1280.png"></p><p><code> -- Creation of Adam,</code> by <a href="https://www.thesistinechapel.org/the-creation-of-adam">Michelangelo</a> 1511.<br><code>God created man in his own image, in the image of God he created him. (Genesis 1: 27)</code></p><p id = "build"></p><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>有时候觉得人并非只是一具躯壳，而是一个过程，而回忆便是辨别自己的过程。</p><p>想记录自己的生活，保留自己的回忆，拥有自己的过去。所以一直以来都有写博客的想法，现在终于实现了！</p><p>博客是结合 <a href="https://pages.github.com/">GitHub Pages</a> + <a href="https://hexo.io/">Hexo</a> 快速 Building Blog 的技术方案.</p><p>其优点如下：</p><ul><li><p>GitHub Pages 的域名和免费无限空间</p></li><li><p><strong>Markdown</strong> 带来的优雅写作体验</p></li><li><p><strong>Git Commit</strong> 即 <strong>Blog Post</strong></p></li><li><p>Hexo 模版很多，本博客使用 <a href="https://github.com/ppoffice/hexo-theme-hueman">theme: hueman</a></p></li></ul><p>其缺点也很明显：</p><ul><li>GitHub 在国内访问起来太慢</li></ul><p>配置的过程中也没遇到什么坑，参考 <a href="https://github.com/Huxpro/huxpro.github.io">Hux Blog</a> 和 <a href="https://zhuanlan.zhihu.com/p/44213627">直上云霄的回答</a>，基本就是 Git 的流程，相当顺利</p><hr><p>博客主要用于生活分享，会不定时分享一些美食，旅游， 运动的照片和感受。</p><p>偶尔也会有一些编程技术的总结，但是不会太正式，太严格。</p><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>回顾这个博客的诞生，纯粹是出于个人兴趣。</p><p>博客刚刚开始，还有很多地方需要优化，在代码层面，也需要更加丰富的配置。行百里者半九十，希望能一直坚持下去，记录生活。</p><p>如果你恰好逛到了这里，希望你也能喜欢这个博客。</p><p>“桃李春风一杯酒，江湖夜雨十年灯。”</p><p>—— Gengxr 后记于 2023.04</p>]]></content>
     
