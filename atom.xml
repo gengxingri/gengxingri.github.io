@@ -6,7 +6,7 @@
   <link href="https://gengxingri.github.io/atom.xml" rel="self"/>
   
   <link href="https://gengxingri.github.io/"/>
-  <updated>2023-04-16T18:33:13.863Z</updated>
+  <updated>2023-04-17T08:53:32.791Z</updated>
   <id>https://gengxingri.github.io/</id>
   
   <author>
@@ -17,26 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>newone</title>
-    <link href="https://gengxingri.github.io/2023/04/17/newone/"/>
-    <id>https://gengxingri.github.io/2023/04/17/newone/</id>
+    <title>Pets</title>
+    <link href="https://gengxingri.github.io/2023/04/17/20230416/"/>
+    <id>https://gengxingri.github.io/2023/04/17/20230416/</id>
     <published>2023-04-17T02:33:13.000Z</published>
-    <updated>2023-04-16T18:33:13.863Z</updated>
+    <updated>2023-04-17T08:53:32.791Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>“Yeah, there are some pets’ pictures in my daily life. ”</p></blockquote><p><img src="/css/post-img/huahua.jpg" alt="Huahua"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;“Yeah, there are some pets’ pictures in my daily life. ”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;/css/post-img/huahua.jpg&quot; alt=&quot;Huahu</summary>
+      
     
     
     
     
+    <category term="pets" scheme="https://gengxingri.github.io/tags/pets/"/>
     
   </entry>
   
   <entry>
     <title>Sentosa</title>
-    <link href="https://gengxingri.github.io/2023/04/17/sentosa/"/>
-    <id>https://gengxingri.github.io/2023/04/17/sentosa/</id>
+    <link href="https://gengxingri.github.io/2023/04/17/20230417/"/>
+    <id>https://gengxingri.github.io/2023/04/17/20230417/</id>
     <published>2023-04-17T02:28:53.000Z</published>
-    <updated>2023-04-16T18:35:23.246Z</updated>
+    <updated>2023-04-17T08:58:25.887Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>“Yeah It’s going. ”</p></blockquote><p><img src="/css/post-img/huahua.jpg"></p><p id = "build"></p><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>“Yeah It’s going. ”</p></blockquote><h2 id="新加坡-–圣淘沙"><a href="#新加坡-–圣淘沙" class="headerlink" title="新加坡 –圣淘沙"></a>新加坡 –圣淘沙</h2><p><img src="/css/post-img/20230416-1.jpg"></p><p id = "build"></p><p><img src="/css/post-img/20230416-2.jpg" alt="德国啤酒小吃"></p><p><img src="/css/post-img/20230416-3.jpg" alt="圣约翰岛"></p><p><img src="/css/post-img/20230416-4.jpg" alt="抗日炮台"></p>]]></content>
     
     
       
@@ -44,11 +56,7 @@
     <summary type="html">&lt;blockquote&gt;
 &lt;p&gt;“Yeah It’s going. ”&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;/css/post-img/huahua.jpg&quot;&gt;&lt;/p&gt;
-&lt;p id = &quot;build&quot;&gt;&lt;/p&gt;
-
-
-&lt;h2 id=&quot;正文&quot;&gt;&lt;a href</summary>
+&lt;h2 id=&quot;新加坡-–圣淘沙&quot;&gt;&lt;a href=&quot;#新加坡-–圣淘沙&quot; class=&quot;headerlink&quot; title=&quot;新加坡 –圣淘沙&quot;&gt;&lt;/a&gt;新加坡 –圣淘沙</summary>
       
     
     
@@ -60,8 +68,8 @@
   
   <entry>
     <title>Boxing</title>
-    <link href="https://gengxingri.github.io/2023/04/15/boxing/"/>
-    <id>https://gengxingri.github.io/2023/04/15/boxing/</id>
+    <link href="https://gengxingri.github.io/2023/04/15/20230415/"/>
+    <id>https://gengxingri.github.io/2023/04/15/20230415/</id>
     <published>2023-04-15T01:06:10.000Z</published>
     <updated>2023-04-16T18:27:34.157Z</updated>
     
