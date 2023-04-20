@@ -10,7 +10,7 @@
 
 
  
-- For more details, see my [personal website](https://gengxingri.github.io/).
+- For more details, see my [personal website](https://gengxingri.github.io/homepage).
 
 
 
