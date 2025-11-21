@@ -1,1 +1,1 @@
-## This is a repo of [Xingri Geng's blog](https://gengxingri.github.io/).
+## This is a repo of [Xingri Geng's Homepage](https://gengxingri.github.io/).
