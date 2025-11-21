@@ -6,4 +6,4 @@ This repository contains the source code for my personal academic website, hoste
 
 ### 🔗 Live Site
 
-[Visit Xingri Geng's Homepage](https://xingri-geng.github.io)
+Visit [Xingri Geng's Homepage](https://xingri-geng.github.io)
