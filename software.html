@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Xingri Geng">
+    <title>Xingri Geng's Software and Tools</title>
+    
+    <style>
+        /* ------------------------------------------- */
+        /* Base Styles and Typography */
+        /* ------------------------------------------- */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        a {
+            color: #0066cc;
+            text-decoration: none;
+            transition: color 0.1s;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #004c99;
+        }
+
+        /* ------------------------------------------- */
+        /* Header and Layout */
+        /* ------------------------------------------- */
+        header {
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+            border-bottom: 3px solid #0066cc; /* 醒目的分割线 */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2em;
+            color: #222;
+        }
+
+        .main-wrapper {
+            display: flex;
+            gap: 40px; /* 间距 */
+        }
+
+        /* ------------------------------------------- */
+        /* Left Navigation (Sidebar) */
+        /* ------------------------------------------- */
+        .sidebar-nav {
+            width: 250px;
+            flex-shrink: 0;
+            /* 响应式调整，确保在小屏幕上导航栏仍然可用 */
+            border-right: 1px solid #ddd;
+            padding-right: 20px;
+        }
+
+        .nav-item {
+            cursor: pointer;
+            user-select: none;
+            font-size: 1.1em;
+            font-weight: bold;
+            padding: 8px 0;
+            transition: all 0.2s;
+            color: #555;
+            border-radius: 4px;
+        }
+
+        /* 标题前的箭头样式 */
+        .nav-item::before {
+            content: '►'; /* 默认指向右边的箭头 */
+            margin-right: 10px;
+            display: inline-block;
+            transition: transform 0.2s; 
+            color: #0066cc;
+            font-size: 0.8em;
+        }
+
+        .nav-item:hover {
+            color: #000;
+            padding-left: 5px; /* 悬停时略微突出 */
+        }
+        
+        /* 当前活动的标题/内容 */
+        .nav-item.active {
+            color: #0066cc; 
+        }
+
+        /* 标题被激活时，箭头向下旋转 */
+        .nav-item.active::before {
+            content: '▼';
+        }
+        
+        /* ------------------------------------------- */
+        /* Right Content Area */
+        /* ------------------------------------------- */
+        .content-area {
+            flex-grow: 1;
+        }
+        
+        /* 隐藏所有内容区域，只显示激活的 */
+        .content-section {
+            display: none;
+            margin-bottom: 30px;
+        }
+        .content-section.active {
+            display: block;
+        }
+
+        /* 隐藏内容区内部的 H2 标题，因为导航项已经充当标题 */
+        .content-section h2 {
+            display: none; 
+        }
+
+        /* 列表和内容样式 */
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        /* 响应式调整 */
+        @media (max-width: 768px) {
+            .main-wrapper {
+                flex-direction: column;
+                gap: 20px;
+            }
+            .sidebar-nav {
+                width: 100%;
+                border-right: none;
+                border-bottom: 1px solid #ddd;
+                padding-bottom: 10px;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+            .nav-item {
+                border: 1px solid #eee;
+                padding: 5px 10px;
+                font-size: 1em;
+                background-color: #f9f9f9;
+            }
+            .nav-item::before, .nav-item.active::before {
+                margin-right: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Xingri Geng's Software and Tools</h1>
+    </header>
+
+    <main class="main-wrapper">
+        
+        <!-- 左侧导航栏 (Sidebar) -->
+        <nav class="sidebar-nav">
+            <div id="nav-cpp" class="nav-item active" data-target="cpp-content">C++</div>
+            <div id="nav-python" class="nav-item" data-target="python-content">Python</div>
+            <div id="nav-julia" class="nav-item" data-target="julia-content">Julia</div>
+            <div id="nav-mfem" class="nav-item" data-target="mfem-content">MFEM</div>
+            <div id="nav-freefem" class="nav-item" data-target="freefem-content">Freefem++</div>
+            <div id="nav-matlab" class="nav-item" data-target="matlab-content">MATLAB</div>
+        </nav>
+
+        <!-- 右侧内容区域 (Content) -->
+        <div class="content-area">
+
+            <!-- C++ Content -->
+            <section id="cpp-content" class="content-section active">
+                <h2>C++</h2>
+                <ul>
+                    <li><i>Neural Networks</i></li>
+                </ul>
+            </section>
+
+            <!-- Python Content -->
+            <section id="python-content" class="content-section">
+                <h2>Python</h2>
+                 <ul>
+                    <li><i> <a href ="Xingri_Geng_CV_Academia.pdf">C.V.</a></i></li>
+                 </ul>
+            </section>
+              
+            <!-- Julia Content -->
+            <section id="julia-content" class="content-section">
+                <h2>Julia</h2>
+                <p>Contact Information (Sample content from original file):</p>
+                <ul>
+                    <li>GitHub: <i><a href = "https://github.com/gengxingri">github.com/gengxingri</a></i></li>
+                </ul>
+            </section>
+            
+            <!-- MFEM Content -->
+            <section id="mfem-content" class="content-section">
+                <h2>MFEM</h2>
+                <p>Related Talks (Sample content from original file):</p>
+                <ul>
+                    <li><i>The Method of Moving Planes and Sliding Domains</i>, PDE and Scientific Computing Seminar, National University of Singapore, Singapore, Nov. 2, 2019. <a href="talk/MovingPlane.pdf">[Slides]</a></li>
+                </ul>
+            </section>
+                
+            <!-- Freefem++ Content -->
+            <section id="freefem-content" class="content-section">
+                <h2>Freefem++</h2>
+                <p>Related Publications (Sample content from original file):</p>
+                <ul>
+                    <li><i>Effective boundary conditions arising from the heat equation with three-dimensional interior inclusion</i>, Commum. Pure Appl. Anal. 2023.
+                     <a href = "https://www.aimsciences.org/article/doi/10.3934/cpaa.2023031">[DOI]</a> <a href = "https://arxiv.org/pdf/2202.01399.pdf">[pdf]</a></li>
+                </ul>
+            </section>
+          
+            <!-- MATLAB Content -->
+            <section id="matlab-content" class="content-section">
+                <h2>MATLAB</h2> 
+                <ul>
+                    <li><i>
+                        <a href = "code/fisher_kpp_2d.m">fisher-kpp-2d.m</a>.
+
+                    </i></li>
+                </ul>
+                <ul>
+                 <li><i>
+                <a href = "code/nonlin_ebc_2d.m">nonlin-ebc-2d.m</a>.
+                 </i> 
+                 </ul>
+            </section>
+
+            <!-- 最后更新时间 -->
+            <footer>
+                <p>
+                <script>
+                document.write("Last update: " +
+                (new  Date(document.lastModified)).getFullYear()   +"/"+   ((new   Date(document.lastModified)).getMonth()+1)   +"/"  +(new   Date(document.lastModified)).getDate() +"");
+                </script> 
+                </p>
+            </footer>
+        </div> <!-- End of content-area -->
+    </main> <!-- End of main-wrapper -->
+
+    <!-- ------------------------------------------- -->
+    <!-- JavaScript for Navigation/Display Control -->
+    <!-- ------------------------------------------- -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var navItems = document.querySelectorAll('.nav-item');
+            var contentSections = document.querySelectorAll('.content-section');
+
+            // 初始化显示第一个内容块
+            function initializeContent() {
+                // 默认激活 C++ 导航项和内容
+                var firstActiveNav = document.getElementById('nav-cpp');
+                var targetContent = document.getElementById('cpp-content');
+                if (firstActiveNav) {
+                    firstActiveNav.classList.add('active');
+                }
+                if (targetContent) {
+                    targetContent.classList.add('active');
+                }
+            }
+
+            // 切换函数
+            function switchContent(targetId) {
+                // 1. 隐藏所有内容区域
+                contentSections.forEach(function(section) {
+                    section.classList.remove('active');
+                });
+
+                // 2. 激活目标内容区域
+                var targetContent = document.getElementById(targetId);
+                if (targetContent) {
+                    targetContent.classList.add('active');
+                }
+            }
+
+            // 监听导航栏点击事件
+            navItems.forEach(function(item) {
+                item.addEventListener('click', function() {
+                    var targetId = item.getAttribute('data-target');
+                    
+                    // 1. 切换导航项的激活状态
+                    navItems.forEach(function(nav) {
+                        nav.classList.remove('active');
+                    });
+                    item.classList.add('active');
+
+                    // 2. 切换右侧内容显示
+                    switchContent(targetId);
+                });
+            });
+
+            // 页面加载时执行初始化
+            initializeContent();
+        });
+    </script>
+
+</body>
+</html>
